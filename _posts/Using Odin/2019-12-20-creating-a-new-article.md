@@ -1,12 +1,10 @@
 ---
 layout: post
-title: "Creating a New Article"
-date: 2019-11-05 08:44:38 -0400
+title: Nueva creación de artículo
+date: 2021-06-11 22:47:38 +0000
 category: using-odin
-author: mac
-short-description: How to add a new article to your Odin knowledge base
+author: 'Maria García '
+short-description: Este es un ejemplo de una descripción
+
 ---
-
 **This article is coming soon**
-
-
