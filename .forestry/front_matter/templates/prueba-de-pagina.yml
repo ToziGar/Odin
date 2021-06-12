@@ -20,3 +20,5 @@ fields:
 - type: text
   name: short-description
   label: short-description
+pages:
+- Veganismo/el-veganismo.md
