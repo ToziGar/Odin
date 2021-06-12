@@ -7,4 +7,4 @@ author: 'Maria García '
 short-description: Este es un ejemplo de una descripción
 
 ---
-**This article is coming soon**
+**Este articulo es una prueba JAJAJAJA**
