@@ -1,0 +1,136 @@
+stackbitVersion: ~0.3.0
+ssgName: jekyll
+publishDir: _site
+dataDir: _data
+pagesDir: ''
+cmsName: git
+models:
+  page_1:
+    type: page
+    label: Page 1
+    match: '**/*'
+    fields:
+      - type: string
+        name: layout
+        label: Layout
+      - type: string
+        name: title
+        label: Title
+      - type: datetime
+        name: date
+        label: Date
+      - type: string
+        name: category
+        label: Category
+      - type: string
+        name: category-name
+        label: Category Name
+      - type: string
+        name: author
+        label: Author
+      - type: string
+        name: short-description
+        label: Short Description
+  authors:
+    type: data
+    label: Authors
+    file: authors.yml
+    fields:
+      - type: object
+        name: mac
+        label: Mac
+        fields:
+          - type: string
+            name: name
+            label: Name
+          - type: image
+            name: image
+            label: Image
+  category_list:
+    type: data
+    label: Category List
+    file: category_list.yml
+    fields:
+      - type: object
+        name: using-subcategories
+        label: Using Subcategories
+        fields:
+          - type: string
+            name: name
+            label: Name
+          - type: string
+            name: description
+            label: Description
+      - type: object
+        name: using-odin
+        label: Using Odin
+        fields:
+          - type: string
+            name: name
+            label: Name
+          - type: string
+            name: description
+            label: Description
+      - type: object
+        name: customizing-odin
+        label: Customizing Odin
+        fields:
+          - type: string
+            name: name
+            label: Name
+          - type: string
+            name: description
+            label: Description
+  subcategory_list:
+    type: data
+    label: Subcategory List
+    file: subcategory_list.yml
+    fields:
+      - type: object
+        name: subcategory-one
+        label: Subcategory One
+        fields:
+          - type: string
+            name: name
+            label: Name
+          - type: string
+            name: parent-category
+            label: Parent Category
+          - type: string
+            name: parent-category-name
+            label: Parent Category Name
+          - type: string
+            name: description
+            label: Description
+      - type: object
+        name: subcategory-two
+        label: Subcategory Two
+        fields:
+          - type: string
+            name: name
+            label: Name
+          - type: string
+            name: parent-category
+            label: Parent Category
+          - type: string
+            name: parent-category-name
+            label: Parent Category Name
+          - type: string
+            name: description
+            label: Description
+      - type: object
+        name: subcategory-three
+        label: Subcategory Three
+        fields:
+          - type: string
+            name: name
+            label: Name
+          - type: string
+            name: parent-category
+            label: Parent Category
+          - type: string
+            name: parent-category-name
+            label: Parent Category Name
+          - type: string
+            name: description
+            label: Description
